@@ -1,2 +1,2 @@
-Propertyshelf Diazo Theme fot propertyshelf.com
+Propertyshelf Diazo Theme for propertyshelf.com
 ===============================================
