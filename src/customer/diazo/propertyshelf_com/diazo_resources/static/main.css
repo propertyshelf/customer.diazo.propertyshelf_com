@@ -1,1 +1,232 @@
-/* Stylesheet for the diazo theme. */
+/*header start*/
+body #wrapper-inner #header .navbar {
+    margin: 5px 0 10px 0;
+}
+/*header end*/
+/*Menu start*/
+body.header-normal #global-wrapper #wrapper-inner #navigation {
+    background-color: rgba(120, 120, 120, 0.6);
+    display: inline-block;
+    min-height: 40px;
+	position: absolute;
+    top: 88px;
+    width: 100%;
+    z-index: 1;
+}
+body.header-normal #global-wrapper #wrapper-inner #navigation .container #id_nav1 {
+    background-color: transparent;
+    border: medium none;
+    margin: 0;
+	padding: 7px 0;
+}
+body.header-normal #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu {
+    background-color: transparent;
+}
+body.header-normal #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu li {
+    background-color: transparent;
+	border-right: 1px solid #fff;
+	height: 42px;
+}
+body.header-normal #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu li a {
+	padding: 15px 21px;
+    background-color: transparent;
+    color: #fff;
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+	line-height: 14px;
+}
+body.header-normal #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu li a:hover, 
+body.header-normal #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu li a:focus{
+    color: #fff;
+    background-color: transparent;
+}
+/*Menu end*/
+body #global-wrapper div#content-wrapper {
+    background-color: transparent;
+}
+#portal-breadcrumbs {
+    font-family: "Open Sans",sans-serif;
+    font-size: 12px;
+	font-weight: normal;
+}
+#content .documentDescription {
+    color: #130b7e;
+    font-family: "Sanchez",serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 0;
+}
+#content h1.documentFirstHeading {
+    color: #597a94 !important;
+    font-family: "Istok Web",sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 27px;
+    margin-bottom: 18px;
+    margin-top: 0;
+}
+#content p {
+    font-family: "Open Sans",sans-serif;
+    font-size: 13px;
+}
+#content h2, #content h2 a {
+    color: #597a94 !important;
+    font-family: "Sanchez",serif;
+    font-size: 21px;
+}
+h1, h2 {
+    font-size: 20px !important;
+    font-weight: bold;
+}
+body p, body {
+	color: #000;
+}
+
+/*Doormat Start*/
+body #footer-wrapper #footer-top-inner h3 {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 30px;
+    margin: 0;
+	color: #597a94 !important;
+}
+body #footer-wrapper #footer-top-inner a {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 30px;
+    margin: 0;
+	color: #000 !important;
+}
+body #footer-wrapper #footer-top,
+body #footer-wrapper,
+body #footer-wrapper #footer-top #footer-top-inner{
+    background-color: transparent;
+}
+body #footer-wrapper {
+	margin-top: 2%;
+    border-top: 3px solid #5b7c96;
+    font-family: "Istok Web",sans-serif;
+}
+#footer-wrapper .doormatSection {
+    margin-top: 4px;
+}
+body #footer-wrapper #colophone {
+    background: #597a94 none repeat scroll 0 0;
+    overflow: auto;
+}
+body #footer-wrapper #colophone .colophone-inner {
+    background-color: transparent;
+	text-align: center;
+}
+body #footer-wrapper #colophone h2 {
+    font-size: 14px !important;
+    font-weight: normal;
+    letter-spacing: 0.3px;
+	margin: 0;
+    padding-top: 10px;
+	line-height: 36px;
+}
+body.site-en .lang-es {
+	display: none;
+}
+body.site-es .lang-en {
+	display: none;
+}
+body #footer-wrapper #colophone p {
+    font-size: 13px;
+    margin: 0;
+    padding-bottom: 14px;
+    padding-top: 5px;
+}
+body #footer-wrapper #colophone p, 
+body #footer-wrapper #colophone h2 {
+    color: #ffffff;
+    font-family: "Istok Web",sans-serif;
+    text-shadow: none;
+}
+/*Doormat End*/
+/*Portlet Start*/
+body dl.portlet dt.portletHeader {
+	background-color: #597a94;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    height: auto;
+    line-height: 36px;
+    margin: 0;
+    padding: 0.42em 1em;
+    width: auto;
+}
+body .portlet .portletHeader a, 
+body .portlet .portletHeader span{
+	color:#fff;
+}
+body #content-wrapper .portlet .portletHeader{
+	margin: 0;
+}
+body #content-wrapper .portlet .portletItem{
+	background: #e6e6e6 none repeat scroll 0 0;
+}
+body #content-wrapper dl.portlet dd.portletItem, 
+body #content-wrapper dl.portlet dd.portletFooter, 
+body #content-wrapper dl.portletError dd{
+    padding: 1em;
+}
+#content-wrapper dt.portletHeader a {
+    color: #fff;
+    font-size: 16px;
+    line-height: 45px;
+}
+body dl.portlet dt.portletHeader {
+    text-align: left;
+}
+body #content-wrapper dl.portlet.portletNavigationTree dd.portletItem {
+    background-color: #d4d4d4;
+	padding: 0;
+}
+body #content-wrapper dl.portlet.portletNavigationTree dd.portletItem .navTree li{
+	padding: 0;
+	background:transparent none repeat scroll 0 0;
+}
+body #content-wrapper dl.portlet.portletNavigationTree dd.portletItem .navTree li.navTreeItem a {
+    background-color: #aaaaaa;
+	padding: 5px;
+    color: #fff;
+}
+.portletNavigationTree a span{
+    padding-left: 10px;
+}
+dl.portlet ul.navTree .navTreeCurrentItem{
+	border-left: medium none;
+}
+.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem a.navTreeCurrentNode{
+	background-image: linear-gradient(#6a8598, #13181b);
+}
+.portletNavigationTree dd.portletItem ul.navTree li.navTreeItem a:hover{
+	background-image: linear-gradient(#6a8598, #13181b);
+}
+body .portletQuickSearch .formControls #form-buttons-search{
+	background: transparent none repeat scroll 0 0;
+    color: #597a94;
+    width: 100px;
+	text-shadow: 0 -1px 0 transparent;
+	margin-top: 1.2em;
+}
+body .portletQuickSearch .formControls #form-buttons-search:hover{
+    color: #fff;
+}
+.portletItem #formfield-form-widgets-listing_type .horizontal{
+	display:none;
+}
+.portletItem #formfield-form-widgets-listing_type{
+padding-top: 11px;
+}
+/*Portlet End*/
+body p {
+    margin: 0;
+}

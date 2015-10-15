@@ -15,11 +15,19 @@
       <link rel="stylesheet" href="{$portal_url}/++theme++customer.diazo.propertyshelf_com/static/main.css" type="text/css" />
 
       <!-- Add custom JavaScript. -->
-      <script src="{$portal_url}/++theme++customer.diazo.propertyshelf_com/static/main.js"></script>
 
       <!--Include Google Fonts. -->
+	  <link href="http://fonts.googleapis.com/css?family=Istok+Web|Sanchez|Open+Sans:400,700" rel="stylesheet" type="text/css" />
     </after>
-      
+
+    <drop
+		css:theme="#header-tools"
+	/>
+
+    <drop
+		css:theme=".ps_slider_wrapper"
+	/> 
+	
     </rules>
         
 </rules>
