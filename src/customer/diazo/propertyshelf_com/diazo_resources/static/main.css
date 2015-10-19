@@ -1,15 +1,53 @@
+/*searchbox start*/
+.searchbox{
+    background: rgba(3, 3, 3, 0.5) none repeat scroll 0 0;
+    position: absolute;
+    right: 8.8%;
+    top: 0;
+}
+/*searchbox end*/
+
+body .listing-summary .tileItem{
+background-color: #f7f7f7;
+}
+body .listing-summary .tileItem section {
+    padding: 1.5% 0 0 2%;
+}
+body .improved .name-of-property {
+    margin: 0 0 5px;
+}
+body #content .improved .price p {
+    color: #707070;
+    font-size: 30px;
+}
+body #content-wrapper .listing-summary .tileItem section {
+    padding: 1.5% 2% 0 2%;
+}
 /*header start*/
 body #wrapper-inner #header .navbar {
     margin: 5px 0 10px 0;
 }
 /*header end*/
 /*Menu start*/
-body.header-normal #global-wrapper #wrapper-inner #navigation {
+.language-switcher{
+	top: -33px;
+}
+body.header-normal #global-wrapper #wrapper-inner #navigation .container #id_nav1 {
+	float: right;
+}
+body.header-normal.active-carousel-banner #global-wrapper #wrapper-inner #navigation {
     background-color: rgba(120, 120, 120, 0.6);
     display: inline-block;
     min-height: 40px;
 	position: absolute;
     top: 88px;
+    width: 100%;
+    z-index: 1;
+}
+body.header-normal #global-wrapper #wrapper-inner #navigation {
+    background-color: rgba(120, 120, 120, 0.6);
+    display: inline-block;
+    min-height: 40px;
     width: 100%;
     z-index: 1;
 }
@@ -67,6 +105,7 @@ body #global-wrapper div#content-wrapper {
     line-height: 27px;
     margin-bottom: 18px;
     margin-top: 0;
+	overflow: hidden;
 }
 #content p {
     font-family: "Open Sans",sans-serif;
@@ -146,6 +185,25 @@ body #footer-wrapper #colophone h2 {
     color: #ffffff;
     font-family: "Istok Web",sans-serif;
     text-shadow: none;
+}
+body #footer-top-inner.container{
+	padding:0;
+	width: 100%;
+}
+body #footer-top-inner.container .width-full{
+    left: 0;
+    margin: 0;
+    width: 100%;
+}
+#footer-wrapper #doormat-container .doormatColumn{
+    width:20%;
+	float:left;
+	margin:0;
+}
+body #footer-top-inner.container .width-full .row{
+    float: none;
+    margin: 0 auto;
+    width: 1170px;
 }
 /*Doormat End*/
 /*Portlet Start*/
@@ -227,6 +285,122 @@ body .portletQuickSearch .formControls #form-buttons-search:hover{
 padding-top: 11px;
 }
 /*Portlet End*/
+/*Colophon Start*/
+body #portal-colophon{
+    background: #597a94 none repeat scroll 0 0;
+    overflow: auto;
+	text-align: center;
+}
+body #portal-colophon h2,
+body #portal-colophon p {
+    font-size: 14px !important;
+    font-weight: normal;
+    letter-spacing: 0.3px;
+    padding-top: 10px;
+	margin:0;
+	color: #ffffff;
+    font-family: "Istok Web",sans-serif;
+}
+/*Colophon End*/
+body #portal-footer{
+	text-align: center;
+}
+body #portal-siteactions{
+	text-align: center;
+	padding: 0;
+}
+body #portal-siteactions li{
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+	margin: 0 1% 0 0;
+}
+body #portal-siteactions li a{
+	margin:0;
+}
 body p {
     margin: 0;
+}
+@media (max-width: 1600px) and (min-width: 1301px) { 
+
+}
+@media (max-width: 1300px) and (min-width: 1201px) {
+
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+	body #footer-top-inner.container .width-full .row{
+		width: 970px;
+	}
+}
+@media (max-width: 991px) and (min-width: 981px) {
+	body #footer-top-inner.container .width-full .row{
+		width: 970px;
+	}
+}
+@media (max-width: 980px) and (min-width: 801px) {
+	body #footer-top-inner.container .width-full .row{
+		width: 750px;
+	}
+}
+@media (max-width: 800px) and (min-width: 768px) {
+	body #footer-top-inner.container .width-full .row{
+		width: 750px;
+	}
+}
+@media (max-width: 767px) and (min-width: 481px) {
+	body .navbar-toggle .icon-bar {
+		background: white none repeat scroll 0 0;
+	}
+	body.header-normal #global-wrapper #wrapper-inner #navigation .container #id_nav1 {
+		float: none;
+	}
+	.language-switcher {
+		top: 0;
+	}
+	body #footer-top-inner.container .width-full .row{
+		width: 98%;
+		margin: 0 1%;
+	}
+	body #doormat-container {
+		text-align: center;
+	}
+	#footer-wrapper #doormat-container .doormatColumn {
+		width: 33%;
+	}
+}
+@media (max-width: 480px) and (min-width: 401px) {
+	body .navbar-toggle .icon-bar {
+		background: white none repeat scroll 0 0;
+	}
+	.language-switcher{
+		top: 0;
+	}
+	body #footer-top-inner.container .width-full .row{
+		width: 98%;
+		margin: 0 1%;
+	}
+	body #doormat-container {
+		text-align: center;
+	}
+	#footer-wrapper #doormat-container .doormatColumn {
+		width: 49%;
+	}
+}
+@media (max-width: 400px) and (min-width: 1px) {
+	body .navbar-toggle .icon-bar {
+		background: white none repeat scroll 0 0;
+	}
+	.language-switcher{
+		top: 0;
+	}
+	body #footer-top-inner.container .width-full .row{
+		width: 98%;
+		margin: 0 1%;
+	}
+	body #doormat-container {
+		text-align: center;
+	}
+	#footer-wrapper #doormat-container .doormatColumn {
+		width: 49%;
+	}
 }

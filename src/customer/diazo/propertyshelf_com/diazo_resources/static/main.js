@@ -1,5 +1,5 @@
-jQuery(function(jq) {
-
-  // Add your theme JS code here.
-
+$(document).ready(function() {
+    if($('.searchbox').length > 0){
+		$('.searchbox').insertAfter('.carousel-banners');
+    }
 });
