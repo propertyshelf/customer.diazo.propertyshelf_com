@@ -1,11 +1,64 @@
-/*searchbox start*/
-.searchbox{
-    background: rgba(3, 3, 3, 0.5) none repeat scroll 0 0;
-    position: absolute;
-    right: 8.8%;
-    top: 0;
+/*quicksearch on carousel start*/
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #form .formControls #form-buttons-search {
+    margin-bottom: 0;
+    background-image: url("../img/button.png");
+    border: 0 none;
+    border-radius: 6px;
+    color: #ffffff;
+	background-color: transparent !important;
+    font-style: oblique;
+    font-weight: bold;
+    height: 27px !important;
+    width: 102px;
 }
-/*searchbox end*/
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-interior_area #form-widgets-beds-min, 
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-lot_size #form-widgets-beds-min, 
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-baths #form-widgets-beds-min, 
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-beds #form-widgets-beds-min,  
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-interior_area #form-widgets-baths-min, 
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-lot_size #form-widgets-baths-min, 
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-baths #form-widgets-baths-min, 
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-beds #form-widgets-baths-min, 
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-interior_area #form-widgets-interior_area-min, 
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-lot_size #form-widgets-interior_area-min, 
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-baths #form-widgets-interior_area-min, 
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-beds #form-widgets-interior_area-min, 
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-interior_area #form-widgets-lot_size-min, 
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-lot_size #form-widgets-lot_size-min, 
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-baths #form-widgets-lot_size-min,
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-beds #form-widgets-lot_size-min{
+	margin-right: 4%;
+}
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-location_state input, 
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-location_county input, 
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-location_city input, 
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-location_district input, 
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-location_state select, 
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-location_county select, 
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-location_city select, 
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-location_district select{
+	width: 100%;
+}
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-location_state {
+	margin-bottom:6px;
+}
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #form-widgets-price_max,
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #form-widgets-price_min {
+    height: 21px;
+    padding: 0 4px;
+	width: 90.1%;
+}
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-listing_type .option.ll,
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-listing_type .horizontal{
+	display: none;
+}
+body #global-wrapper #content-wrapper .move_me {
+    left: 45%;
+    margin-left: -10px;
+    position: absolute;
+    top: -325px;
+}
+/*quicksearch on carousel end*/
 
 body .listing-summary .tileItem{
 background-color: #f7f7f7;
@@ -328,6 +381,12 @@ body p {
 
 }
 @media (max-width: 1200px) and (min-width: 992px) {
+	body #global-wrapper #content-wrapper .move_me {
+		left: 45%;
+		margin-left: -10px;
+		position: absolute;
+		top: -325px;
+	}
 	body #footer-top-inner.container .width-full .row{
 		width: 970px;
 	}

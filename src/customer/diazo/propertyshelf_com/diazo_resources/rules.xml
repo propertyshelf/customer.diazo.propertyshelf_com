@@ -22,13 +22,9 @@
     </after>
 
     <drop
-		css:theme="#header-tools"
-	/>
-
-    <drop
-		css:theme=".ps_slider_wrapper"
-	/> 
-	
+		  css:theme="#header-tools"
+    />
+    
     </rules>
         
 </rules>
