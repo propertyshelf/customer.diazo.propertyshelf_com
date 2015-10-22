@@ -12,5 +12,8 @@ $(document).ready(function() {
 			b_label.hide();
 			search_tile.find('#form-widgets-beds-min option[value=--MINVALUE--]').text(b_text_min);
 			search_tile.find('#form-widgets-beds-max option[value=--MAXVALUE--]').text(b_text_max);
+			state=search_tile.find('#formfield-form-widgets-location_state label').text();
+			search_tile.find('#form-widgets-location_state option:first-child').text(state);
+			state_label=search_tile.find('#formfield-form-widgets-location_state label').hide();
 	}
 });

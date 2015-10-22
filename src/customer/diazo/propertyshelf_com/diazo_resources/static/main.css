@@ -1,4 +1,12 @@
 /*quicksearch on carousel start*/
+body #carousel-wrapper .carousel-banners .carousel-banner{
+	max-width: none;
+}
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-listing_type{
+	margin-bottom: 2px;
+    overflow: auto;
+	padding: 0 2.5%;
+}
 body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #form .formControls #form-buttons-search {
     margin-bottom: 0;
     background-image: url("../img/button.png");
@@ -37,10 +45,13 @@ body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfie
 body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-location_county select, 
 body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-location_city select, 
 body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-location_district select{
-	width: 100%;
+	width: 95%;
 }
-body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-location_state {
-	margin-bottom:6px;
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-location_state,
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-beds,
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-price_min,
+body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #formfield-form-widgets-price_max{
+    text-align: center;
 }
 body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #form-widgets-price_max,
 body #global-wrapper #content-wrapper .on-carousel .listing-search-tile #form-widgets-price_min {
@@ -56,7 +67,7 @@ body #global-wrapper #content-wrapper .move_me {
     left: 45%;
     margin-left: -10px;
     position: absolute;
-    top: -325px;
+    top: -320px;
 }
 /*quicksearch on carousel end*/
 
@@ -382,31 +393,43 @@ body p {
 }
 @media (max-width: 1200px) and (min-width: 992px) {
 	body #global-wrapper #content-wrapper .move_me {
-		left: 45%;
-		margin-left: -10px;
-		position: absolute;
-		top: -325px;
+		top: -320px;
 	}
 	body #footer-top-inner.container .width-full .row{
 		width: 970px;
 	}
 }
 @media (max-width: 991px) and (min-width: 981px) {
+	body #global-wrapper #content-wrapper .move_me {
+		left: 29%;
+	}
 	body #footer-top-inner.container .width-full .row{
 		width: 970px;
 	}
 }
 @media (max-width: 980px) and (min-width: 801px) {
+	body #global-wrapper #content-wrapper .move_me {
+		left: 26%;
+	}
 	body #footer-top-inner.container .width-full .row{
 		width: 750px;
 	}
 }
 @media (max-width: 800px) and (min-width: 768px) {
+	body #global-wrapper #content-wrapper .move_me {
+		left: 26%;
+	}
 	body #footer-top-inner.container .width-full .row{
 		width: 750px;
 	}
 }
 @media (max-width: 767px) and (min-width: 481px) {
+	body #carousel-wrapper .carousel-banners .carousel-banner{
+		max-width: 100%;
+	}
+	body #global-wrapper #content-wrapper .move_me {
+		display: none;
+	}
 	body .navbar-toggle .icon-bar {
 		background: white none repeat scroll 0 0;
 	}
@@ -428,6 +451,19 @@ body p {
 	}
 }
 @media (max-width: 480px) and (min-width: 401px) {
+	body #carousel-wrapper {
+		display: none;
+	}
+	body.header-normal.active-carousel-banner #global-wrapper #wrapper-inner #navigation{
+		position: static;
+		margin-bottom: -5px;
+	}
+	body #carousel-wrapper .carousel-banners .carousel-banner{
+		max-width: 100%;
+	}
+	body #global-wrapper #content-wrapper .move_me {
+		display: none;
+	}
 	body .navbar-toggle .icon-bar {
 		background: white none repeat scroll 0 0;
 	}
@@ -446,6 +482,19 @@ body p {
 	}
 }
 @media (max-width: 400px) and (min-width: 1px) {
+	body #carousel-wrapper {
+		display: none;
+	}
+	body.header-normal.active-carousel-banner #global-wrapper #wrapper-inner #navigation{
+		position: static;
+		margin-bottom: -5px;
+	}
+	body #carousel-wrapper .carousel-banners .carousel-banner{
+		max-width: 100%;
+	}
+	body #global-wrapper #content-wrapper .move_me {
+		display: none;
+	}
 	body .navbar-toggle .icon-bar {
 		background: white none repeat scroll 0 0;
 	}
