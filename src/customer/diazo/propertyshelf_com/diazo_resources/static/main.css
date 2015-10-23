@@ -1,5 +1,44 @@
+/*second style start*/
+body.header-normal.active-carousel-banner.active-featurenavi #global-wrapper #wrapper-inner #navigation{
+    background-color: transparent;
+    top: 36px;
+}
+body.header-normal.active-carousel-banner.active-featurenavi #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu li a{
+    color: #000;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    min-width: 75px;
+}
+#featurenavi {
+  padding: 0;
+  width: 1080px;
+  display: table;
+  margin: 0 auto;
+  position: relative;
+}
+#featurenavi .navi-item {
+    border-left: 2px solid #cccccc;
+    border-right: 2px solid #999999;
+    height: 86px;
+    width: 16.666%;
+    max-width: 225px;
+    text-align: center;
+}
+.featurenavi-viewlet{   
+    background: -moz-linear-gradient(top,  rgba(89,122,148,0.3) 0%, rgba(89,122,148,0.3) 36%, rgba(89,122,148,0.57) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(89,122,148,0.3)), color-stop(36%,rgba(89,122,148,0.3)), color-stop(100%,rgba(89,122,148,0.57))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(89,122,148,0.3) 0%,rgba(89,122,148,0.3) 36%,rgba(89,122,148,0.57) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(89,122,148,0.3) 0%,rgba(89,122,148,0.3) 36%,rgba(89,122,148,0.57) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(89,122,148,0.3) 0%,rgba(89,122,148,0.3) 36%,rgba(89,122,148,0.57) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(89,122,148,0.3) 0%,rgba(89,122,148,0.3) 36%,rgba(89,122,148,0.57) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d597a94', endColorstr='#91597a94',GradientType=0 ); /* IE6-9 */
+    margin-bottom: 2px;
+    width: 100%;
+}
+/*second style end*/
 /*quicksearch on carousel start*/
-#global-wrapper #carousel-wrapper .carousel{
+body .carousel{
   height: auto;
 }
 body #carousel-wrapper .carousel-banners .carousel-banner{
@@ -70,7 +109,7 @@ body #global-wrapper #content-wrapper .move_me {
     left: 45%;
     margin-left: -10px;
     position: absolute;
-    top: -368px;
+    top: -320px;
 }
 /*quicksearch on carousel end*/
 
@@ -354,6 +393,7 @@ padding-top: 11px;
 /*Portlet End*/
 /*Colophon Start*/
 body #portal-colophon{
+    padding: 5px 10px;
     background: #597a94 none repeat scroll 0 0;
     overflow: auto;
 	text-align: center;
@@ -396,7 +436,7 @@ body p {
 }
 @media (max-width: 1200px) and (min-width: 992px) {
 	body #global-wrapper #content-wrapper .move_me {
-    top: -368px;
+        top: -320px;
 	}
 	body #footer-top-inner.container .width-full .row{
 		width: 970px;

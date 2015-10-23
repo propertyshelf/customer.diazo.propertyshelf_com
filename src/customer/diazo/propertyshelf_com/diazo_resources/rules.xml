@@ -24,7 +24,17 @@
     <drop
 		  css:theme="#header-tools"
     />
-    
+      <rules css:if-content=".featurenavi">
+          <after
+              css:theme="#navigation"
+              css:content=".featurenavi"
+              method="raw"
+          />
+          <drop
+              css:content=".featurenavi"
+          />
+      </rules>
+
     </rules>
         
 </rules>
