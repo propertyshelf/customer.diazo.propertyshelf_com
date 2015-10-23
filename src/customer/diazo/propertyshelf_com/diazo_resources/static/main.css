@@ -1,4 +1,7 @@
 /*quicksearch on carousel start*/
+#global-wrapper #carousel-wrapper .carousel{
+  height: auto;
+}
 body #carousel-wrapper .carousel-banners .carousel-banner{
 	max-width: none;
 }
@@ -67,7 +70,7 @@ body #global-wrapper #content-wrapper .move_me {
     left: 45%;
     margin-left: -10px;
     position: absolute;
-    top: -320px;
+    top: -368px;
 }
 /*quicksearch on carousel end*/
 
@@ -393,7 +396,7 @@ body p {
 }
 @media (max-width: 1200px) and (min-width: 992px) {
 	body #global-wrapper #content-wrapper .move_me {
-		top: -320px;
+    top: -368px;
 	}
 	body #footer-top-inner.container .width-full .row{
 		width: 970px;
