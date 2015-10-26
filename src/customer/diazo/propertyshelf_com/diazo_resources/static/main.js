@@ -1,4 +1,14 @@
 $(document).ready(function() {
+	if($('.listing-search-tile').length > 0){
+		count = $('#featurenavi li').length;
+		$('#featurenavi li').addClass('featurenavi-' + count);
+	}
+	var maxHeight = 0;
+		$('body.active-featurenavi #featurenavi .navi-item .text').each(function() { 
+			maxHeight = Math.max(maxHeight, $(this).height());
+		});
+		$('body.active-featurenavi #featurenavi .navi-item .text').height(maxHeight);
+
 	search_tile = $('.on-carousel .listing-search-tile');
 		if(search_tile.length>0){
 			p_min=search_tile.find('#formfield-form-widgets-price_min label');
