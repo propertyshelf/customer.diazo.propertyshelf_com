@@ -47,7 +47,11 @@ body.active-featurenavi #featurenavi .text a {
     color: #597a94 !important;
     font-size: 16px;
 }
-body.header-normal.active-featurenavi #global-wrapper #wrapper-inner #navigation{
+body.header-normal.active-featurenavi div#global-wrapper div#wrapper-inner div#navigation .nav li a:hover,
+body.header-normal.active-featurenavi div#global-wrapper div#wrapper-inner div#navigation .nav li a:focus{
+    color: #000 !important;
+}
+body.header-normal.active-featurenavi div#global-wrapper div#wrapper-inner div#navigation{
     background-color: transparent;
     top: 36px;
 }
