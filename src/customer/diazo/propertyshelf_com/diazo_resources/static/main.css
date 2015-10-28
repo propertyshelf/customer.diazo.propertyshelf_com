@@ -1,6 +1,6 @@
 /*second style start*/
 body.active-featurenavi #featurenavi .navi-item.featurenavi-6 {
-	width: 16.6%;
+    width: 16.6%;
 }
 body.active-featurenavi #featurenavi .navi-item.featurenavi-5 {
 	width: 20%;
@@ -349,9 +349,11 @@ body #footer-top-inner.container .width-full{
     width: 100%;
 }
 #footer-wrapper #doormat-container .doormatColumn{
-    width:20%;
 	float:left;
 	margin:0;
+}
+#footer-wrapper #doormat-container.columns-6 .doormatColumn{
+	width: 20%;
 }
 body #footer-top-inner.container .width-full .row{
     float: none;
@@ -475,6 +477,12 @@ body #portal-siteactions li a{
 body p {
     margin: 0;
 }
+.portlet .portletItem ul{
+	padding:0;
+}
+.portlet .portletItem ul li{
+	list-style-type: none;
+}
 @media (max-width: 1600px) and (min-width: 1301px) { 
 	body.active-featurenavi #featurenavi .navi-item {
 		border-right: 1px solid #999999;
@@ -545,6 +553,9 @@ body p {
 	}
 }
 @media (max-width: 767px) and (min-width: 481px) {
+	#footer-wrapper #doormat-container.columns-6 .doormatColumn {
+		width: 33%;
+	}
 	body.active-featurenavi #featurenavi .navi-item:first-child{
 		border-left: medium none;
 	}
@@ -617,11 +628,14 @@ body p {
 	body #doormat-container {
 		text-align: center;
 	}
-	#footer-wrapper #doormat-container .doormatColumn {
-		width: 33%;
-	}
 }
 @media (max-width: 480px) and (min-width: 401px) {
+	body #global-wrapper #footer-wrapper #doormat-container.columns-6 div.doormatColumn {
+		width: 50%;
+	}
+	body #global-wrapper #footer-wrapper #doormat-container div.doormatColumn {
+		width: 100%;
+	}
 	body.active-featurenavi #featurenavi .navi-item:first-child{
 		border-left: medium none;
 	}
@@ -688,14 +702,14 @@ body p {
 	body #doormat-container {
 		text-align: center;
 	}
-	#footer-wrapper #doormat-container .doormatColumn {
-		width: 49%;
-	}
 	body .logo-wrapper .logo {
 		text-align: center;
 	}
 }
 @media (max-width: 400px) and (min-width: 1px) {
+	body #global-wrapper #footer-wrapper #doormat-container div.doormatColumn {
+		width: 100%;
+	}
 	body.active-featurenavi #featurenavi .navi-item:first-child{
 		border-left: medium none;
 	}
@@ -739,7 +753,7 @@ body p {
 		display: none;
 	}
 	body.header-normal.active-carousel-banner #global-wrapper #wrapper-inner #navigation,
-	body.header-normal.active-featurenavi #global-wrapper #wrapper-inner #navigation,{
+	body.header-normal.active-featurenavi #global-wrapper #wrapper-inner #navigation{
 		position: static;
 		margin-bottom: -5px;
 	}
@@ -761,9 +775,6 @@ body p {
 	}
 	body #doormat-container {
 		text-align: center;
-	}
-	#footer-wrapper #doormat-container .doormatColumn {
-		width: 49%;
 	}
 	body .logo-wrapper .logo {
 		text-align: center;
